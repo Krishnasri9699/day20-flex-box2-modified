@@ -1,0 +1,126 @@
+.item{
+   /* width: 50px;
+    height: 50px;*/
+    background-color: lightcoral;
+    color: black;
+    border: 2px solid black;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#container1{
+    background-color:aquamarine;
+    flex-direction:row ;
+    justify-content: space-around;
+    align-items: start;
+}
+
+#container2{
+    background-color: aqua;
+    flex-direction:row ;
+    justify-content: space-between;
+    align-items: start;
+    }
+#container3{
+    background-color: aquamarine;
+    flex-direction:row ;
+    justify-content: space-evenly;
+    align-items: start;
+}
+#container4{
+    background-color: aqua;
+    flex-direction:row ;
+    justify-content: start;
+    align-items: stretch;
+}
+#container5{
+    background-color: aqua;
+    flex-direction:column ;
+    justify-content: start;
+    align-items: stretch;
+}
+#container6{
+    background-color: aquamarine;
+    flex-direction:row;
+    justify-content: start;
+    align-items: baseline;
+}
+#container7{
+    background-color: aqua;
+    flex-direction:row;
+    justify-content: start;
+    align-items: baseline;
+    align-content: start;
+}
+
+#container8{
+    background-color: aquamarine;
+    flex-direction:row;
+    justify-content: start;
+    align-items: baseline;
+    align-content: center;
+}
+#container9{
+   background-color: aqua;
+    flex-direction:row;
+    justify-content: start;
+    align-items: baseline;
+    align-content: end;
+}
+
+#container10{
+    background-color: aquamarine;
+    flex-direction:row;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+#container11{
+   background-color: aqua;
+    flex-direction:row;
+    justify-content: start;
+    align-items: start;
+    
+}
+#container12{
+    width: 100%;
+    height: 500px;
+    background-color: aquamarine;
+    flex-direction:row;
+    justify-content: start;
+    align-items: start;
+    
+}
+#container13{
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
+    flex-direction:row;
+    justify-content: start;
+    align-items: start;
+    
+}
+
+
+
+
+
+
+
+
+
+nav{
+    background-color: lightseagreen;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
